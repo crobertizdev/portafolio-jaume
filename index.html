@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Fuente Poppins (weight de 700 y 400) -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Fuente Oxygen (weight de 300 y 700) -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/resets/my-reset.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<title>Portafolio | Jaume</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<img src="../Portafolio-base/images/logo.svg" alt="Logo de Jaume" />
+				<nav class="nav">
+					<ul class="ul">
+						<li><a id="active" href="#about">Hola</a></li>
+						<li><a href="#projects">Proyectos</a></li>
+						<li><a href="#contact">Hablemos</a></li>
+					</ul>
+				</nav>
+				<button class="button-header">Currículum</button>
+			</header>
+
+			<main class="main">
+				<div class="main-image">
+					<img src="./images/jaume.png" alt="Jaume" />
+				</div>
+				<div class="main-description">
+					<h1><span>¡Hola a todos!</span><br /><span>Soy Jaume</span></h1>
+					<p class="description">
+						Frontend Developer que le encanta implementar diseños que inspiran y
+						atraen a las personas.
+					</p>
+					<div class="social">
+						<a class="button-icon" href="#"
+							><img src="../Portafolio-base/icons/icon-phone.svg" alt=""
+						/></a>
+						<a class="button-icon" href="#"
+							><img
+								src="../Portafolio-base/icons/icon-important_mail.svg"
+								alt=""
+						/></a>
+						<a class="button-icon" href="#"
+							><img src="../Portafolio-base/icons/icon-instagram.svg" alt=""
+						/></a>
+						<a class="button-icon" href="#"
+							><img
+								src="../Portafolio-base/icons/icon-twitter_squared.svg"
+								alt=""
+						/></a>
+					</div>
+					<button class="button-curriculum">Descargar Currículum</button>
+				</div>
+			</main>
+
+			<section id="about" class="about">
+				<p>
+					A lo largo de mi carrera como Frontend, he tenido el privilegio de
+					trabajar en proyectos retadores e increíbles
+				</p>
+				<p>Aquí hay algunos que me gustaría compartir.</p>
+				<img src="./icons/arrow-down.svg" alt="" />
+			</section>
+
+			<section id="projects" class="project">
+				<div class="project-image">
+					<img src="./images/project-1.png" alt="Proyecto Leonidas Estevan" />
+				</div>
+				<div class="project-description">
+					<a href="#">leonidasestevan.com</a>
+					<p>
+						Accede a más de 120 proyectos que te ayudarán a mejorar tus
+						habilidades como desarrollador Front-End.
+					</p>
+					<button class="button-empty">Ver Código</button>
+					<button class="button-header">Ver Proyecto</button>
+				</div>
+			</section>
+			<div class="comment">
+				<img src="./images/user-1.png" alt="" />
+				<p>
+					"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+					desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+					meses ".
+				</p>
+				<p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+			</div>
+
+			<section class="project second">
+				<div class="project-image">
+					<img src="./images/project-2.png" alt="Proyecto Marvol" />
+				</div>
+				<div class="project-description">
+					<a href="#">Marvol</a>
+					<p>
+						Es el sitio oficial de Marvol Entertainment. Explore películas,
+						personajes, cómics, programas de televisión, videos y más oficiales
+						de Marvol.
+					</p>
+					<button class="button-empty">Ver Código</button>
+					<button class="button-header">Ver Proyecto</button>
+				</div>
+			</section>
+			<div class="comment">
+				<img src="./images/user-2.png" alt="" />
+				<p>
+					"Jaume ha superado mis expectativas desde el diseño hasta el
+					desarrollo".
+				</p>
+				<p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+			</div>
+
+			<section class="project">
+				<div class="project-image">
+					<img src="./images/project-3.png" alt="Proyecto Netnet" />
+				</div>
+				<div class="project-description">
+					<a href="#">NETNET</a>
+					<p>
+						Películas y series ilimitadas y mucho más. Disfruta donde quieras.
+						Cancela cuando quieras.
+					</p>
+					<button class="button-empty">Ver Código</button>
+					<button class="button-header">Ver Proyecto</button>
+				</div>
+			</section>
+			<div class="comment">
+				<img src="./images/user-3.png" alt="" />
+				<p>
+					"Por primera vez en la historia de nuestra empresa, aparecimos en
+					todas las plataformas en las que trabajamos".
+				</p>
+				<p>MARCO CORTEZ / NETNET</p>
+			</div>
+
+			<section id="contact" class="contact">
+				<a>Hablemos</a>
+				<p>
+					Si está interesado en trabajar conmigo en su próximo proyecto, no dude
+					en ponerse en contacto conmigo.
+				</p>
+				<form id="form" class="form" action="" method="POST">
+					<label for="name"
+						>Nombre completo
+						<input
+							id="name"
+							type="text"
+							name="name"
+							placeholder="Tu nombre"
+							required
+						/>
+					</label>
+
+					<label for="email"
+						>Correo electrónico
+						<input
+							id="email"
+							type="email"
+							name="email"
+							placeholder="example@gmail.com"
+							required
+						/>
+					</label>
+
+					<label for="message"
+						>Mensaje
+						<textarea
+							name="message"
+							id="message"
+							cols="30"
+							rows="10"
+							placeholder="Tu mensaje"
+							required
+						></textarea>
+					</label>
+					<button class="button-header" type="submit">Enviar mensaje</button>
+				</form>
+			</section>
+
+			<footer class="footer">
+				<img src="../Portafolio-base/images/logo.svg" alt="Logo de Jaume" />
+				<div class="social">
+					<a class="button-icon" href="#"
+						><img src="../Portafolio-base/icons/icon-phone.svg" alt=""
+					/></a>
+					<a class="button-icon" href="#"
+						><img src="../Portafolio-base/icons/icon-important_mail.svg" alt=""
+					/></a>
+					<a class="button-icon" href="#"
+						><img src="../Portafolio-base/icons/icon-instagram.svg" alt=""
+					/></a>
+					<a class="button-icon" href="#"
+						><img
+							src="../Portafolio-base/icons/icon-twitter_squared.svg"
+							alt=""
+					/></a>
+				</div>
+				<p>Copyrigth 2021 | Todos los derechos reservados</p>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+	color: var(--white);
+	background: var(--gradient);
+	/* Lo de abajo para quitar las lineas del gradiente */
+	min-height: 100vh;
+}
+
+html {
+	scroll-behavior: smooth;
+}

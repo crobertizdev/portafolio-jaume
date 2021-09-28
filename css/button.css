@@ -1,0 +1,66 @@
+.button-header {
+	height: 49px;
+	background: var(--purple);
+	font: var(--button);
+	text-transform: uppercase;
+	color: var(--white);
+	border-radius: 4px;
+	padding: 13px 24px;
+	border: 2px solid #310a90;
+	text-align: center;
+	cursor: pointer;
+}
+
+.button-curriculum {
+	height: 49px;
+	background: var(--purple);
+	font: var(--button);
+	text-transform: uppercase;
+	color: var(--white);
+	border-radius: 4px;
+	padding: 13px 24px;
+	text-align: center;
+	margin-bottom: 14.38px;
+	border: 2px solid #310a90;
+	cursor: pointer;
+}
+
+.button-empty {
+	height: 49px;
+	background: none;
+	font: var(--button);
+	border-radius: 4px;
+	border: 2px solid #310a90;
+	color: var(--purple);
+	padding: 13px 25px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.social {
+	padding-bottom: 24px;
+	display: flex;
+	gap: 10px;
+}
+
+.button-icon {
+	background: var(--white);
+	border-radius: 4px;
+	border: 2px solid var(--purple);
+	padding: 10px;
+	display: inline-block;
+}
+
+.button-icon img {
+	/* Corregir espaciado. Esto pasa cuando pones una imagen dentro de un elemento */
+	vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+	.button-empty {
+		margin-right: 16px;
+	}
+
+	.social {
+		gap: 16px;
+	}
+}

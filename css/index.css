@@ -1,0 +1,21 @@
+/* Estilos generales */
+@import './styles.css';
+/* Variables */
+@import './variables.css';
+/* header */
+@import './header.css';
+@import './button.css';
+/* main */
+@import './main.css';
+/* wrapper (contenedor) */
+@import './wrapper.css';
+/* about */
+@import './about.css';
+/* Proyectos */
+@import './proyects.css';
+/* Comentarios */
+@import 'comments.css';
+/* formulario */
+@import './form.css';
+/* footer */
+@import './footer.css';

@@ -1,0 +1,15 @@
+@import './reset_ericmeyer.css';
+
+* {
+	outline: none;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	border-style: none;
+}

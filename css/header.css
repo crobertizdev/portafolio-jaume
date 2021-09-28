@@ -1,0 +1,42 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	height: 81px;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	backdrop-filter: blur(10px);
+	z-index: 50;
+}
+
+.header img {
+	width: 69px;
+	height: 39px;
+}
+
+.nav {
+	width: 203px;
+	height: 23px;
+	display: none;
+}
+
+.ul {
+	display: flex;
+	gap: 40px;
+}
+
+.ul li a {
+	font: var(--button);
+	color: var(--white);
+	text-transform: uppercase;
+}
+
+#active {
+	color: var(--purple);
+}
+
+@media screen and (min-width: 768px) {
+	.nav {
+		display: block;
+	}
+}

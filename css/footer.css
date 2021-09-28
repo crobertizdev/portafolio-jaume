@@ -1,0 +1,62 @@
+.footer .social {
+	justify-content: center;
+}
+
+.footer {
+	text-align: center;
+	color: var(--white);
+	padding-bottom: 24px;
+}
+
+.footer p {
+	font: var(--body1);
+}
+
+.footer img[src='../Portafolio-base/images/logo.svg'] {
+	display: none;
+}
+
+@media screen and (min-width: 992px) {
+	.footer img[src='../Portafolio-base/images/logo.svg'] {
+		display: block;
+		cursor: pointer;
+		padding-right: 205px;
+	}
+
+	.footer .social {
+		order: 3;
+		padding: 0;
+		padding-left: 100px;
+	}
+
+	.footer {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 48px;
+	}
+
+	.footer p {
+		max-width: 320px;
+		white-space: nowrap;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.footer p {
+		max-width: 380px;
+	}
+
+	.footer .social {
+		padding-left: 140px;
+	}
+
+	.footer img[src='../Portafolio-base/images/logo.svg'] {
+		padding-right: 313px;
+	}
+}
+
+@media screen and (min-width: 1320px) {
+	.footer p {
+		max-width: 440px;
+	}
+}

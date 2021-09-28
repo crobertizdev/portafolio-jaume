@@ -1,0 +1,25 @@
+:root {
+	--fontPoppins: 'Poppins', sans-serif;
+	--fontOxygen: 'Oxygen', sans-serif;
+	--white: #fff;
+	--purple: #310a90;
+	--gradient: radial-gradient(
+			41.48% 11.48% at 2.38% 8.52%,
+			#747de9 0%,
+			rgba(255, 255, 255, 0) 100%
+		),
+		linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+	--headline1: normal 700 5.9375rem/9.6068754196167rem var(--fontPoppins);
+	--headline2: normal 700 3.6875rem/5.96637487411499rem var(--fontPoppins);
+	--headline3: normal 700 3rem/4.854000091552734rem var(--fontPoppins);
+	--headline4: normal 700 2.125rem/3.4382500648498535rem var(--fontPoppins);
+	--headline5: normal 700 1.5rem/2.427000045776367rem var(--fontPoppins);
+	--body1: normal 400 1rem/1.6180000305175781rem var(--fontPoppins);
+	--body2: normal 400 0.875rem/1.4157500267028809rem var(--fontPoppins);
+	--body3-p: normal 400 1.5rem/2.426875rem var(--fontPoppins);
+	--body3-o: normal 400 1.5rem/2.426875rem var(--fontOxygen);
+	--body4-o: normal 700 1rem/1.618125rem var(--fontOxygen);
+	--body4-p: normal 700 1rem/1.618125rem var(--fontPoppins);
+	--button: normal 700 0.875rem/1.4157500267028809rem var(--fontPoppins);
+	--caption: normal 400 0.75rem/1.2135000228881836rem var(--fontPoppins);
+}
