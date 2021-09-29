@@ -12,12 +12,12 @@
 	font: var(--body1);
 }
 
-.footer img[src='../Portafolio-base/images/logo.svg'] {
+.footer img[src='./images/logo.svg'] {
 	display: none;
 }
 
 @media screen and (min-width: 992px) {
-	.footer img[src='../Portafolio-base/images/logo.svg'] {
+	.footer img[src='./images/logo.svg'] {
 		display: block;
 		cursor: pointer;
 		padding-right: 205px;
@@ -50,7 +50,7 @@
 		padding-left: 140px;
 	}
 
-	.footer img[src='../Portafolio-base/images/logo.svg'] {
+	.footer img[src='./images/logo.svg'] {
 		padding-right: 313px;
 	}
 }
