@@ -24,7 +24,7 @@
 
 .contact p {
 	font: var(--body1);
-	text-align: center;
+	text-align: start;
 	padding-top: 8px;
 }
 
